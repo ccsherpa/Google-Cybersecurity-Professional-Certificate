@@ -1,0 +1,29 @@
+# Incident Report Analysis: DoS Attack
+
+## Summary
+[span_2](start_span)The organization encountered a DoS attack that compromised the internal network for 2 hours[span_2](end_span). [span_3](start_span)The network services stopped responding due to an incoming flood of ICMP packets through an unconfigured firewall[span_3](end_span).
+
+## NIST Cybersecurity Framework Analysis
+
+### Identify
+* **[span_4](start_span)Status**: Network services were unresponsive and resources were inaccessible[span_4](end_span).
+* **[span_5](start_span)Discovery**: The cybersecurity team found a malicious actor sent a flood of ICMP pings into the network[span_5](end_span).
+
+### Protect
+* **[span_6](start_span)IDS/IPS**: Implemented an IDS/IPS system to filter ICMP traffic based on suspicious characteristics[span_6](end_span).
+* **[span_7](start_span)Goal**: To catch suspicious activity immediately to prevent continued disruption[span_7](end_span).
+
+### Detect
+* **[span_8](start_span)Monitoring**: Implemented network monitoring software to detect abnormal traffic patterns[span_8](end_span).
+* **[span_9](start_span)Verification**: Added Source IP address verification on the firewall to check for spoofed IP addresses[span_9](end_span).
+
+### Respond
+* **[span_10](start_span)Isolation**: Focused on isolating affected systems immediately to stop the disruption from spreading[span_10](end_span).
+* **[span_11](start_span)Reporting**: Steps included restoring services and reporting the incident to management[span_11](end_span).
+
+### Recover
+* **[span_12](start_span)Prioritization**: The team focused on restoring critical network services first, then non-critical services[span_12](end_span).
+* **[span_13](start_span)Validation**: Ensured all malicious ICMP packets were filtered before returning to normal operations[span_13](end_span).
+
+## Reflections
+[span_14](start_span)The implementation of the IDS/IPS and IP verification tools allows the security team to recognize malicious hackers more easily and respond much quicker to similar future incidents[span_14](end_span).
