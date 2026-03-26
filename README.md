@@ -1,2 +1,2 @@
 # Google-Cybersecurity-Professional-Certificate
-A collection of labs and projects completed during the Google Cybersecurity Professional Certificate, focusing on incident response, risk management, and the NIST Cybersecurity Framework.
+This repository contains a collection of projects and hands-on labs completed as part of the Google Cybersecurity Professional Certificate. These projects demonstrate my ability to identify vulnerabilities, protect assets, and respond to security incidents using industry-standard tools and frameworks.
